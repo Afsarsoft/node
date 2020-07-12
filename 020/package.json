@@ -1,0 +1,16 @@
+{
+  "name": "012",
+  "version": "1.0.0",
+  "description": "- Node Package Manager (npm) https://www.npmjs.com/ is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. By installing Node.js npm gets install automatically.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0"
+  }
+}

@@ -1,5 +1,20 @@
-## NPM
-- Node Package Manager (npm) https://www.npmjs.com/ is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. By installing Node.js npm gets install automatically.
+## Express
+https://www.youtube.com/watch?v=L72fhGm1tfE&t=361s
+
+- Fresh start with Express
+https://www.npmjs.com/package/express
+http://expressjs.com/
+web server-side framework for Node.js
+Helps us with routing, requests, server side logic, ....
+Helps us to write cleaner and better code. To install it for the project:
+- npm install express
+
+# Prerequisites
+- latest version of node.js https://nodejs.org/en/
+- Note: Node Package Manager (npm) https://www.npmjs.com/ is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. By installing Node.js npm gets install automatically
+
+- Checking for the version if we have:
+node -v
 
 # Installing useful npm packages
 # nodemon
@@ -29,21 +44,13 @@ For using its capabilities, we use "_." before its components
 To install it for the project:
 - npm install lodash
 
-# express
-https://www.npmjs.com/package/express
-http://expressjs.com/
-web server-side framework for Node.js
-Helps us with routing, requests, server side logic, ....
-Helps us to write cleaner and better code. To install it for the project:
-- npm install express
+# moment
+using moment for formatting dates
+- npm install moment
 
-# Learning
-We will learn the following:
-- How to setup Express app
-- How to setup different route handlers, redirects, 404
-- How to send back an HTML file as a response to browser
+# Install Postman
+https://www.postman.com/downloads/
 
-In summary, Express is a very useful backend JS library to simplify the logic of routing.
 
 
 
