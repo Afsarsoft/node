@@ -1,4 +1,5 @@
 const express = require('express');
+const uuid = require('uuid');
 const router = express.Router();
 const members = require('../../Members');
 
@@ -16,5 +17,34 @@ router.get('/:id', (req, res) => {
   }
 
 });
+
+// Create Member, we create a post request
+// Go to the Postman and send some data
+router.post('/', (req, res) => {
+  // Just for testing from Postman, sending it back
+  // res.send(req.body);
+  // what we want to create a new member
+  // Databases usually can create the ID for us.
+  // we are going to use uuid to generate random ID for us
+  const newMember = {
+    // generating universal random IDs
+    id: uuid.v4(),
+    name: req.body.name,
+    email: req.body.email,
+    status: 'active'
+  }
+
+
+  // Running to issues, unexpected results investigate ....!!!!
+  if (!newMember.name || !newMember.email) {
+    return res.status(400).json({ msg: 'Please include a name and email' });
+  }
+
+  members.push(newMember);
+  res.json(members);
+
+});
+
+
 
 module.exports = router;

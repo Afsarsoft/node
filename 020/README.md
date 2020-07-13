@@ -27,7 +27,7 @@ Now, instead of node <filename>, we use nodemon <filename>
 # package.json
 It keeps track of packages and our dependency of our project
 Later on if we need to install our dependency, all we need to run is "npm install"
-Installing it fo our project:
+Installing it for our project:
 - npm init
 It asks series of questions regarding our project. We can skip all by pressing Enter key.
 
@@ -47,6 +47,10 @@ To install it for the project:
 # moment
 using moment for formatting dates
 - npm install moment
+
+# uuid
+To generate random IDs
+- npm install uuid
 
 # Install Postman
 https://www.postman.com/downloads/
